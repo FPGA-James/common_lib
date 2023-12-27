@@ -1,0 +1,13 @@
+# Package metadata. Required.
+package:
+  # The name of the package. Required.
+  name: common lib
+
+  # The list of package authors and contributors. Optional.
+  # By convention, authors should be listed in the form shown below.
+  authors: ["FPGA_James"]
+
+# Other packages this package depends on. Optional.
+dependencies:
+  # Path dependency.
+  rom: { path: "../rom" }

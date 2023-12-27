@@ -1,0 +1,18 @@
+# Package metadata. Required.
+package:
+  # The name of the package. Required.
+  name: rom
+
+  # The list of package authors and contributors. Optional.
+  # By convention, authors should be listed in the form shown below.
+  authors: ["FPGA_James"]
+
+# Freeze any dependency updates. Optional. False if omitted.
+# Useful for chip packages. Once the chip is in final tapeout mode, and
+# dependency updates would require disastrous amounts of re-verification.
+frozen: False
+
+# List of source files in this package. Optional.
+sources:
+  # Individual source files are simple string entries:
+  - src/rom.sv

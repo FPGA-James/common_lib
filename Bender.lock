@@ -1,0 +1,7 @@
+packages:
+  rom:
+    revision: null
+    version: null
+    source:
+      Path: ../rom
+    dependencies: []
