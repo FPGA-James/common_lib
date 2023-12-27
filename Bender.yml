@@ -10,4 +10,4 @@ package:
 # Other packages this package depends on. Optional.
 dependencies:
   # Path dependency.
-  rom: { path: "../rom" }
+  rom: { path: "../common_lib/rom" }

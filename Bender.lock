@@ -3,5 +3,5 @@ packages:
     revision: null
     version: null
     source:
-      Path: ../rom
+      Path: ../common_lib/rom
     dependencies: []
