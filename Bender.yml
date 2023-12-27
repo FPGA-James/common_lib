@@ -8,6 +8,10 @@ package:
   authors: ["FPGA_James"]
 
 # Other packages this package depends on. Optional.
-dependencies:
+#dependencies:
   # Path dependency.
-  rom: { path: "../common_lib/rom" }
+  #rom: { path: "../common_lib/rom" }
+  # List of source files in this package. Optional.
+sources:
+  # Individual source files are simple string entries:
+  - rom/src/rom.sv
