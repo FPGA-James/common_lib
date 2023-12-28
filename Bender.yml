@@ -6,12 +6,18 @@ package:
   # The list of package authors and contributors. Optional.
   # By convention, authors should be listed in the form shown below.
   authors: ["FPGA_James"]
-
-# Other packages this package depends on. Optional.
-#dependencies:
-  # Path dependency.
-  #rom: { path: "../common_lib/rom" }
-  # List of source files in this package. Optional.
 sources:
-  # Individual source files are simple string entries:
-  - rom/src/rom.sv
+  # ROM
+  files:
+    - rom/src/rom.sv
+  # Interfaces
+  files:
+    - interfaces/axi/axi_stream/src/sv_axi_stream.sv
+    - interfaces/axi/axi_lite/src/sv_axi4lite_pkg.sv
+    - interfaces/axi/axi_lite/src/sv_axi4lite.sv
+    - interfaces/bram/src/if_bram.sv
+    - interfaces/bram/src/pkg_bram.sv
+
+  #bram
+  files:  
+    - bram/src/bram.sv
